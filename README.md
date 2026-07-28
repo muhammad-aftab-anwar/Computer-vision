@@ -1,125 +1,142 @@
-# 👁️ Computer Vision Projects
+# 👁️ Computer Vision
 
-A collection of Computer Vision projects built using **Python**, **TensorFlow/Keras**, **OpenCV**, and **Deep Learning**. This repository demonstrates image classification, preprocessing, model training, evaluation, and deployment-ready workflows.
+A comprehensive collection of Computer Vision and Deep Learning projects built using **Python**, **TensorFlow**, and **Keras** . This repository demonstrates modern techniques for image classification, preprocessing, model training, evaluation, and inference across a variety of real-world datasets.
 
 ---
 
-## 📌 Overview
+## 📖 About
 
-This repository contains multiple Computer Vision projects that focus on solving real-world image classification problems using Convolutional Neural Networks (CNNs) and Deep Learning techniques.
+This repository showcases my work in Computer Vision, focusing on designing, training, and evaluating deep learning models for image classification tasks. It includes projects covering medical imaging, facial emotion recognition, traffic sign recognition, fashion classification, and more.
 
-Projects include:
-
-- 🩺 Skin Disease Classification (HAM10000)
-- 😊 Facial Emotion Recognition (FER2013)
-- 🧠 Brain Tumor MRI Classification
-- 🚦 German Traffic Sign Recognition (GTSRB)
-- 👕 Fashion Product Classification
-- ✊ Rock Paper Scissors Classification
+Each project follows a complete machine learning pipeline, including data preprocessing, model development, training, evaluation, and prediction.
 
 ---
 
 ## 🚀 Features
 
-- Image preprocessing
-- Data augmentation
-- Custom CNN architectures
-- Transfer Learning models
-- TensorFlow Dataset Pipeline
-- Model evaluation
-- Confusion Matrix
-- Classification Report
-- Accuracy & Loss visualization
-- Model saving and loading
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- TensorFlow
-- Keras
-- OpenCV
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- Kaggle Datasets
+* Image preprocessing and normalization
+* Data augmentation
+* Custom CNN architectures
+* Transfer learning models
+* TensorFlow data pipelines
+* Model training and validation
+* Performance evaluation
+* Confusion matrices
+* Classification reports
+* Model saving and loading
+* Prediction on new images
 
 ---
 
 ## 📂 Repository Structure
 
-```
+```text
 Computer-Vision/
 │
-├── datasets/
-├── notebooks/
-├── models/
-├── preprocessing/
-├── training/
-├── evaluation/
-├── images/
-├── saved_models/
+├── Datasets/
+├── Notebooks/
+├── Models/
+├── Training/
+├── Evaluation/
+├── Predictions/
+├── Images/
+├── Saved_Models/
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## 📊 Implemented Models
+## 🧠 Projects Included
 
-- Custom CNN
-- EfficientNet
-- ResNet
-- DenseNet
-- MobileNet
-- VGG
+* 🩺 Skin Disease Classification
+* 😊 Facial Emotion Recognition
+* 🧠 Brain Tumor MRI Classification
+* 🚦 German Traffic Sign Recognition
+* 👕 Fashion Product Classification
+* ✊ Rock Paper Scissors Classification
 
----
-
-## 📈 Evaluation Metrics
-
-The models are evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-- ROC Curve (where applicable)
+Additional projects will be added over time.
 
 ---
 
-## 📸 Sample Workflow
+## 🛠️ Technologies Used
 
-1. Load Dataset
-2. Image Preprocessing
-3. Data Augmentation
-4. Model Building
-5. Model Training
-6. Validation
-7. Testing
-8. Performance Evaluation
-9. Save Trained Model
+* Python
+* TensorFlow
+* Keras
+* OpenCV
+* NumPy
+* Pandas
+* Matplotlib
+* Scikit-learn
+* Jupyter Notebook
 
 ---
 
-## 💻 Installation
+## 🤖 Deep Learning Models
 
-Clone the repository
+The repository includes implementations of:
+
+* Custom Convolutional Neural Networks (CNNs)
+* EfficientNet
+* ResNet
+* DenseNet
+* MobileNet
+* VGG Networks
+
+---
+
+## 📊 Evaluation Metrics
+
+Model performance is measured using:
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+* Classification Report
+* Loss Curves
+* Accuracy Curves
+
+---
+
+## 🔄 Workflow
+
+1. Load the dataset
+2. Preprocess images
+3. Apply data augmentation
+4. Build the model
+5. Train the model
+6. Validate performance
+7. Test the model
+8. Evaluate results
+9. Save the trained model
+10. Predict on unseen images
+
+---
+
+## ⚙️ Installation
+
+You can access the repository here:
+
+**GitHub Repository:**
+**👉 https://github.com/muhammad-aftab-anwar/Computer-Vision**
+
+Or clone it locally:
 
 ```bash
-git clone https://github.com/yourusername/Computer-Vision.git
+git clone https://github.com/muhammad-aftab-anwar/Computer-Vision.git
 ```
 
-Navigate into the project
+Move into the project folder:
 
 ```bash
 cd Computer-Vision
 ```
 
-Install dependencies
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -129,19 +146,19 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-Train a model
+Run model training:
 
 ```bash
 python train.py
 ```
 
-Evaluate a model
+Evaluate a trained model:
 
 ```bash
 python evaluate.py
 ```
 
-Predict an image
+Run predictions:
 
 ```bash
 python predict.py
@@ -151,28 +168,26 @@ python predict.py
 
 ## 📁 Datasets
 
-The repository uses publicly available datasets, including:
+This repository contains projects built using publicly available datasets such as:
 
-- HAM10000 Skin Lesion Dataset
-- FER2013 Emotion Dataset
-- Brain Tumor MRI Dataset
-- GTSRB Traffic Sign Dataset
-- Fashion Product Images
-- Rock Paper Scissors Dataset
+* HAM10000 Skin Lesion Dataset
+* FER2013 Emotion Dataset
+* Brain Tumor MRI Dataset
+* GTSRB Traffic Sign Dataset
+* Fashion Product Images Dataset
+* Rock Paper Scissors Dataset
 
 ---
 
-## 📷 Results
+## 📈 Results
 
-The trained models achieve competitive performance depending on the dataset and architecture.
+The projects demonstrate strong performance across different Computer Vision tasks through:
 
-Example outputs include:
-
-- Training Accuracy
-- Validation Accuracy
-- Confusion Matrix
-- Classification Report
-- Prediction Visualizations
+* High classification accuracy
+* Efficient preprocessing pipelines
+* Optimized deep learning architectures
+* Detailed evaluation metrics
+* Visual performance analysis
 
 ---
 
@@ -180,15 +195,15 @@ Example outputs include:
 
 Contributions are welcome!
 
-1. Fork the repository
-2. Create a feature branch
+1. Fork this repository
+2. Create a new branch
 3. Commit your changes
-4. Push your branch
+4. Push the branch
 5. Open a Pull Request
 
 ---
 
-## 📜 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
@@ -198,24 +213,17 @@ This project is licensed under the MIT License.
 
 **Muhammad Aftab Anwar**
 
-- Deep Learning Engineer
-- Computer Vision Enthusiast
-- TensorFlow & Keras Developer
+Deep Learning Engineer | Computer Vision Enthusiast | TensorFlow & Keras Developer
 
 ---
 
 ## ⭐ Support
 
-If you find this repository helpful, please consider giving it a ⭐ on GitHub.
-
-It motivates further development and helps others discover the project.
+If you find this repository useful, please consider giving it a ⭐ on GitHub. Your support helps motivate future improvements and new projects.
 
 ---
 
-## 📧 Contact
+## 📬 Contact
 
-Feel free to connect for collaboration, freelance work, or discussions related to AI, Deep Learning, and Computer Vision.
+Feel free to connect for collaboration, research, freelance opportunities, or discussions related to Artificial Intelligence, Machine Learning, and Computer Vision.
 
-```
-
-This README is suitable for a professional GitHub portfolio and highlights your computer vision projects in a clean, recruiter-friendly format.
